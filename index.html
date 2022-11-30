@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 2</title>
+</head>
+<body >
+    <h1>Workshop #HTML-Form</h1>
+    <form><table>
+        <tr>
+            <td><label for = "fname">ชื่อ</label></td>
+            <td><input type = "text" name = "fname"></td>
+        </tr>
+        <tr>
+            <td><label for = "lname">นามสกุล</label></td>
+            <td><input type = "text" name = "lname"></td>
+        </tr>
+        <tr>
+            <td><label for = "birthday">วัน/เดือน/ปีเกิด</label></td>
+            <td><input type = "date" name = "birthday"></td>
+        </tr>
+        <tr>
+            <td><label for = "age">อายุ</label></td>
+            <td><input type = "text" name = "age"></td>
+        </tr>
+        <tr>
+            <td><label for = "sex">เพศ</label></td>
+            <td><input type = "radio" name = "sex">
+                <label for = "sex">ชาย</label>
+                <input type = "radio" name = "sex">
+                <label for = "sex">หญิง</label></td>
+        </tr>
+        <tr>
+            <td><label for = "image">รูป</label></td>
+            <td><input type = "file" name = "image"></td>
+
+        </tr>
+        <tr>
+            <td><label for = "address">ที่อยู่</label></td>
+            <td><textarea name="address" cols="20" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for = "color">สีที่ชอบ</label></td>
+            <td><select name = "color">
+                <option value = "สีม่วง">สีม่วง</option>
+                <option value = "สีฟ้า">สีฟ้า</option>
+                <option value = "สีน้ำเงิน">สีน้ำเงิน</option>
+                <option value = "สีเขียว">สีเขียว</option>
+                <option value = "สีเหลือง">สีเหลือง</option>
+                <option value = "สีส้ม">สีส้ม</option>
+                <option value = "สีแดง">สีแดง</option>
+                <option value = "สีขาว"selected>สีขาว</option>
+                <option value = "สีดำ">สีดำ</option>
+                <option value = "สีเทา">สีเทา</option>
+                <option value="อื่นๆ">อื่นๆ</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for = "music">แนวเพลงที่ชอบ</label></td>
+            <td><input type = "radio" name = "music">
+                <label for = "music">เพื่อชีวิต</label>
+                <input type = "radio" name = "music">
+                <label for = "music">ลูกทุ่ง</label>
+                <input type = "radio" name = "music">
+                <label for = "music">อื่นๆ</label></td>
+        </tr>
+   
+    </table>
+    <br> 
+    <input type = "button" name = "accept">
+    <label for = "accept">ยินยอมให้เก็บข้อมูล</label>
+    <br><br> 
+    <table width = "20%">
+        <tr>
+            <td><button type = "reset" name = "clear">Reset</button></td>
+            <td><button type = "submit" name = "answer">Submit</button></td>        
+        </tr>
+    </table>
+        
+   </form>
+</body>
+</html>
