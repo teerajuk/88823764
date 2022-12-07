@@ -1,0 +1,49 @@
+/*-------------- css -------------*/
+
+h1{
+    font-size: 60px;
+    color: blue;
+}
+.a {  list-style-type: circle;}
+.border{
+    border-style: double;
+    width: 500px;
+    /* แบบวงกลม 50% */
+    border-radius: 20px;
+    border-top-style: double;
+    padding-left: 20px;
+    margin: 20px;
+    margin-left: 140px;
+}
+.box{
+    border-style: double;
+    width: 1500px;
+    /* แบบวงกลม 50% */
+    border-radius: 20px;
+    border-top-style: double;
+    padding: 20px;
+    margin: 20px;
+    
+}
+#myh1{
+    font-size: 70px;
+}
+.main{
+    color: black;
+    font-size: 30px;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.b{
+    line-height: 50%;
+}
+.font{
+    font-size: 24px;
+}
+*{
+font-family: 'Chakra Petch', sans-serif;
+}
